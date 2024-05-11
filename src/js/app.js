@@ -54,7 +54,11 @@ function render(variables = {}) {
                 ? "https://www.linkedin.com/" + variables.linkedin
                 : "https://linkedin.com/school/4geeksacademy"
             }"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i></a></li>
+            <li><a href=" ${
+              variables.instagram
+                ? "https://instagram.com/" + variables.instagram
+                : "https://instagram.com/4geeksacademy"
+            }"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
